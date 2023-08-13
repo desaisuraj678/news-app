@@ -1,9 +1,8 @@
 import React, {useCallback, useMemo} from 'react';
 import {FlatList, View, Text, StyleSheet, Dimensions} from 'react-native';
 import NewsCard from './NewsCard';
-import {useNewsFeedEffect} from '../effects/useNewsFeedEffect';
+import {useNewsFeedEffect} from '../hooks/useNewsFeedEffect';
 import NewsPinnedCard from './NewsPinnedCard';
-import { FlashList } from "@shopify/flash-list";
 
 
 function HomeScreen() {
